@@ -39,6 +39,10 @@ p { margin-bottom: 8px; }
 .sidebar-note { margin-top: auto; padding: 16px 12px 0; color: #afc9c1; border-top: 1px solid #31514b; font-size: 12px; }
 .sidebar-note strong { color: #9ae4bd; }
 .sidebar-note p { margin: 7px 0 0; }
+.series-link { display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 44px; margin-top: 16px; padding: 10px 12px; color: #c2e9d7; background: #ffffff08; border: 1px solid #42685d; border-radius: 7px; font-size: 12px; font-weight: 700; text-decoration: none; }
+.series-link svg { flex-shrink: 0; }
+.series-link:hover { color: #fff; background: #28524a; border-color: #89dfb5; }
+.series-link:focus-visible { outline: 3px solid #77cdb1; outline-offset: 2px; }
 .main-content { min-width: 0; padding: 27px clamp(20px, 4vw, 54px) 45px; }
 .page-header { display: flex; align-items: center; justify-content: space-between; gap: 15px; margin-bottom: 24px; padding-bottom: 19px; border-bottom: 1px solid var(--line); }
 .eyebrow { color: var(--green); font-size: 10px; font-weight: 750; letter-spacing: 1.8px; }
@@ -166,6 +170,7 @@ p { margin-bottom: 8px; }
   .brand-mark { width: 29px; height: 29px; }
   .aside-sub, .sidebar-note { display: none; }
   .sidebar nav { display: flex; gap: 4px; margin-top: 9px; }
+  .series-link { margin-top: 8px; }
   .nav-button { flex: 1; justify-content: center; gap: 5px; padding: 7px 3px; font-size: 11px; }
   .nav-button span { width: auto; }
   .main-content { padding: 18px 15px 35px; }
