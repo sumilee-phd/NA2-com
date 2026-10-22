@@ -1,6 +1,7 @@
 # CommuteNet React
 
 네트워크관리사 2급 기출문제 학습 앱입니다. React 19와 Vite를 사용하며, 기존 HTML에 내장된 18회 900문항의 이미지·답안표를 그대로 분리해 사용합니다.
+
 ## 실행 환경
 
 - Node.js 20.19 이상 또는 22.12 이상
@@ -29,7 +30,8 @@ Node.js가 설치되어 있지 않다면 [nodejs.org](https://nodejs.org/)에서
 - 서비스 주소: https://sumilee-phd.github.io/NA2-com/
 - `main`에 푸시하면 `.github/workflows/deploy.yml`이 설치·빌드·배포를 실행합니다.
 - `vite.config.ts`는 GitHub Actions의 저장소 이름으로 기본 경로를 설정합니다. 문제은행도 `import.meta.env.BASE_URL`을 사용합니다.
-- `public/data/bank.json`은 반드시 커밋하세요. `node_modules/`와 `dist/`는 커밋하지 않습니다.- 원본 `CommuteNet-React.zip`은 변경하지 않고 앱 소스와 데이터를 반영했습니다.
+- `public/data/bank.json`은 반드시 커밋하세요. `node_modules/`와 `dist/`는 커밋하지 않습니다.
+- 원본 `CommuteNet-React.zip`은 변경하지 않고 앱 소스와 데이터를 반영했습니다.
 
 배포 경로를 로컬에서 확인하려면 PowerShell에서 다음을 실행합니다.
 
